@@ -1,0 +1,5 @@
+sentence = input("Enter a sentence: ")
+words = sentence.split()
+print("First 3 words:", words[:3])
+print("Last 2 words:", words[-2:])
+print("Reversed list:", words[::-1])
