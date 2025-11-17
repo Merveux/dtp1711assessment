@@ -1,6 +1,3 @@
-fruits=["apple","banana","mango"]
-fruits.append("orange")
-fruits.insert(1,"kiwi")
-index=fruits.index("banana")
-fruits[index]="grapes"
-print(fruits)
+list=[1,10,20,30,40,50,60,70,80,90]
+for e in list:
+  print(e)
